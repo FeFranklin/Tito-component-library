@@ -9,6 +9,9 @@ module.exports = {
     "@storybook/addon-essentials",
     "@storybook/addon-interactions"
   ],
+  features: {
+    previewMdx2: true,
+  },
   typescript: { reactDocgen: false },
   "framework": "@storybook/react",
   "core": {
