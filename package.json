@@ -16,6 +16,9 @@
     "type": "git",
     "url": "https://github.com/FeFranklin/Tito-component-library.git"
   },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "author": {
     "name": "Felipe Franklin"
   },
