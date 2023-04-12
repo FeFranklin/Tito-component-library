@@ -1,9 +1,6 @@
 {
   "name": "@fefranklin/tito-component-library",
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/FeFranklin"
-  },
-  "version": "1.0.1",
+  "version": "1.0.5",
   "description": "UI Component library",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
@@ -12,7 +9,12 @@
     "rollup": "rollup -c",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
-    "chromatic": "chromatic --project-token=CHROMATIC_PROJECT_TOKEN"
+    "chromatic": "chromatic --project-token=CHROMATIC_PROJECT_TOKEN",
+    "publish-package": "npm run rollup && cp package.json ./dist && npm publish --access=public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/FeFranklin/Tito-component-library.git"
   },
   "author": {
     "name": "Felipe Franklin"
