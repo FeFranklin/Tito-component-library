@@ -1,6 +1,6 @@
 {
   "name": "@fefranklin/tito-component-library",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "UI Component library",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
@@ -81,6 +81,5 @@
     "dist"
   ],
   "types": "dist/index.d.ts",
-  "readme": "ERROR: No README data found!",
-  "_id": "@fefranklin/tito-component-library@1.0.1"
+  "readme": "ERROR: No README data found!"
 }
